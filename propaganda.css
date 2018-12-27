@@ -1,0 +1,93 @@
+#videoFundo{   
+    position: fixed;
+    z-index: -1;
+    /*para iniciar no topo*/
+    top: 65px;
+    opacity: .5;
+}
+
+#menuSuperior nav a {
+    margin-left: 35px;
+    color: red;
+}
+
+#menuSuperior{
+ height: 65px;
+    /*para iniciar no topo da pagina*/
+    top: 0px;
+    background-color: rgba(25,25,25, .5);
+    position: fixed;
+    width: 100%;
+    z-index: 1;/*define camada de renderização*/
+    font-size: 40px;
+    opacity: .5;
+}
+
+
+body{
+background-color: black;
+}
+
+#comecando, #temp, #personagens{
+	position: relative;
+	top:900px;
+	opacity: 20%;
+	color: white;
+    font-size: 30px;
+    background-color: black;
+}
+
+#comeco {
+	position: absolute;
+	text-align: left;
+    top: 0px;
+    margin-top: 0px;
+	left: 750px;
+	font-size: 35px;
+    color: black;
+    background-color: transparent;
+    bottom: 30px;
+}
+
+#temp{
+    top: 1900px;
+    text-align: center;
+    position: center;
+
+}
+
+#menuSuperior nav a{
+ color: white;
+    text-decoration: none;
+
+    /*Transição para suavizar a cor ao passar o mouse*/
+    transition: color .4s;
+}
+
+#comecando{
+    text-align:  left;
+    position: absolute;
+    right: 200px;
+    left: 10px;
+    width: 800px;
+}
+
+#personagens{
+    font-size: 30px;
+    top: 4000px;
+    text-align:  right;
+    position: absolute;
+    left: 200px;
+    right: 10px;
+    
+}
+
+#personagens h4{
+    text-align: center;
+}
+
+img{
+    position: relative;
+    width: 800px;
+
+}
